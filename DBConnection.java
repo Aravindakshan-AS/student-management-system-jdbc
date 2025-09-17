@@ -3,7 +3,7 @@ import java.sql.*;
 public class DBConnection {
 	private static String url = "jdbc:mysql://localhost:3306/studentdb";
 	private static String user = "root";
-	private static String pass = "Aravind@29";
+	private static String pass = "pass";
 	
 	public static Connection getConnection()
 	{
@@ -16,3 +16,4 @@ public class DBConnection {
 		}
 	}
 }
+
